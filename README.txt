@@ -8,6 +8,10 @@ SSH port: 2200
 USER INSTRUCTIONS (complete URL):
 - Navigate to 'http://www.18.212.209.237.xip.io'
 
+SSH INTO SERVER:
+- ssh -i /.ssh/privateKey grader@18.212.209.237 -p 2200
+	- where /.ssh/privateKey is where the private key is stored that I supplied during submission.
+
 
 Software Installed:
 - Postgresql
